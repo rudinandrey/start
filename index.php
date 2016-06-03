@@ -13,5 +13,5 @@ $f3->set("root", __DIR__);
 $f3->set("LOGS", __DIR__."/logs/");
 $f3->set("UI", __DIR__."/ui/");
 
-$f3->set("GET /", "main->index");
+$f3->route("GET /", "main->index");
 $f3->run();
