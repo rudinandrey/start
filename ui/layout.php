@@ -4,6 +4,7 @@
  * User: rudinAS
  * Date: 03.06.2016
  * Time: 9:14
+ * Modified 2018-11-05 update libs
  */
 
 ?>
@@ -13,8 +14,7 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="/js/jquery-2.2.4.min.js"></script>
-    <script src="/js/ractive.min.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
     <script src="/js/riot+compiler.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <?php if(isset($header)) { View::instance()->raw($header); } ?>
